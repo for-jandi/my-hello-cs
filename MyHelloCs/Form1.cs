@@ -16,5 +16,15 @@ namespace MyHelloCs
         {
             InitializeComponent();
         }
+
+        private void BtnGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(
+                "환영합니다.",
+                "몬베베",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Information
+            );
+        }
     }
 }

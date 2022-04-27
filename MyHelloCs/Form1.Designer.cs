@@ -41,6 +41,7 @@
             this.BtnGreeting.TabIndex = 0;
             this.BtnGreeting.Text = "환영 인사 버튼";
             this.BtnGreeting.UseVisualStyleBackColor = true;
+            this.BtnGreeting.Click += new System.EventHandler(this.BtnGreeting_Click);
             // 
             // FormMain
             // 
